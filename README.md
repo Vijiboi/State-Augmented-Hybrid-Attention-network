@@ -10,7 +10,7 @@ This workspace now includes a complete testable path for the current architectur
 ## Important Note
 
 - Phase 1 is ready and good to go (uses MIT MiniCheetah based Dataset for training on different surfaces; extracted courtesy University of Michigan, Github Repo link: https://github.com/UMich-CURLY/deep-contact-estimator)
-- Phase 2 is still a hardcoded scheduler, that was added in the original repo just for testing purposes. The real `A_k`, `B_k`, and final LQR gains can be filled in later from system identification or offline linearization (Dataset to be selected can be based off expected inputs/outputs given below).
+- Phase 2 is still a scheduler that is based on DUMMY values, that was added in the original repo just for testing purposes. The real `A_k`, `B_k`, and final LQR gains can be filled in later from system identification or offline linearization (Dataset to be selected can be based off expected inputs/outputs given below).
 - `KMP_DUPLICATE_LIB_OK=TRUE` is set inside the training and demo scripts so the local Windows OpenMP runtime can start cleanly in this environment.
 
 ## Files
